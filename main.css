@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-decoration: none;
+}
+body {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgb(25, 25, 25);
+}
+.empty-box{
+  background-color: #fff;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 1rem;
+}
+.fill{
+  background-image: url(img/fashion/1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.hold{
+  border: solid 5px #ccc;
+}
+.hover{
+  background-color: #333;
+  border-color: #fff;
+  border-style: dashed;
+}
